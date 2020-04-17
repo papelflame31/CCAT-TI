@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <div id = "app">
+        <h1>Gente de Vue</h1>
+        <ul>
+            <li v-for = "candidato of candidatos">
+                {{candidato.nombre}}  {{candidato.cantidad}} 
+                <button @click = "candidato.cantidad++"> votar </button>
+            </li>
+        </ul>
+        <h3>El alcalde es {{ganador}}</h3>
+        <input type = "text" placeholder = "presiona suprimir para reiniciar los votos" size = 50 @click = "calculo" @keyup.delete = "reset">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src = "jhomework.js"></script>
+</body>
+</html>
