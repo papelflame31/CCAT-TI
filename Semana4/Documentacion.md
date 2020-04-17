@@ -23,7 +23,7 @@ Valor inicial de los elementos de la variable ganadro y de los elementos del vec
         ganador: ''
     },
 
-![](img1.jpg) 
+![error](/Images/img1.jpg) 
 
 ***
 
@@ -53,7 +53,7 @@ Reinicia la cantidad de votos de todos los elementos del vector candidatos
         }
     }
 
-![](img2.jpg) 
+![error](/Images/img1.jpg) 
 
 
 
