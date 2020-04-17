@@ -56,7 +56,7 @@ Reinicia la cantidad de votos de todos los elementos del vector candidatos
     }
 
      
-![error](/Images/img2.jpg) 
+![error](Images/img2.jpg) 
     
 
 
