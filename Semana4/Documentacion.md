@@ -1,7 +1,7 @@
 #Semana 4
 ---   
     
-####HTML   
+#### HTML   
 Recorrido de vector candidatos, con la funcion cantidad++ al ocurrir el evento click.
    
 	<li v-for = "candidato of candidatos">
@@ -9,7 +9,7 @@ Recorrido de vector candidatos, con la funcion cantidad++ al ocurrir el evento c
         <button @click = "candidato.cantidad++"> votar </button>
 	</li>
 
-####JS
+#### JS
 Valor inicial de los elementos de la variable ganadro y de los elementos del vector candidatos.
    
 	data: {
@@ -23,18 +23,18 @@ Valor inicial de los elementos de la variable ganadro y de los elementos del vec
         ganador: ''
     },
 
-![](/Images/img1.jpg) 
+![](img1.jpg) 
 
 ***
 
-####HTML
+#### HTML
     
 Campo de texto, cuando ocurre el evento click muestra el candidato con mayor cantidad de votos, cuando se le da al boton suprimir e reinicia el conteo.
     
 	<h3>El alcalde es {{ganador}}</h3>
     <input type = "text" placeholder = "presiona suprimir para reiniciar los votos" size = 50 @click = "calculo" @keyup.delete = "reset">
 
-####JS
+#### JS
 Funcion calculo():   
 Ordena los candidatos de forma decreciente y asigna a la variable ganador el nombre del candidato en la posicion 0.
 
@@ -53,7 +53,7 @@ Reinicia la cantidad de votos de todos los elementos del vector candidatos
         }
     }
 
-![](/Images/img2.jpg) 
+![](img2.jpg) 
 
 
 
